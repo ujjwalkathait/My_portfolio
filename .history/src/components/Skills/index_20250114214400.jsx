@@ -22,7 +22,7 @@ const Skills = () => {
                         idx={14}
                     />
                 </h1>
-                <p> Hello </p>
+                
             </div>
             <Loader type="pacman" />
         </>
