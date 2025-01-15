@@ -1,11 +1,12 @@
 .home-page {
+    z-index: 1;
     .text-zone {
       position: absolute;
-      z-index: 2;
+      z-index: 0;
       left: 10%;
-      top: 45%;
+      top: 50%;
       transform: translateY(-50%);
-      width: 30%;
+      width: 40%;
       max-height: 90%;
     }
   

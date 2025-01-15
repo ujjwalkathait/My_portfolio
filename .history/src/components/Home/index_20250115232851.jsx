@@ -37,8 +37,8 @@ const Home = () => {
 
   return (
     <>
+      <Background>
       <div className="container home-page">
-        <Background>
           <div className="text-zone">
             <h1>
               <span className={letterClass}>H</span>
@@ -70,8 +70,8 @@ const Home = () => {
             </Link>
           </div>
           {/* <Logo /> */}
-        </Background>
       </div>
+      </Background>
 
       <Loader type="pacman" />
     </>

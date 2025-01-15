@@ -1,6 +1,7 @@
 .home-page {
     .text-zone {
       position: absolute;
+      z-index: 2;
       left: 10%;
       top: 50%;
       transform: translateY(-50%);
@@ -40,9 +41,9 @@
       }
   
       img {
-        margin-left: 20px;
+        margin-left: 15px;
         opacity: 0;
-        width: 32px;
+        width: 55px;
         height: auto;
         animation: rotateIn 1s linear both;
         animation-delay: 1.4s;

@@ -70,8 +70,8 @@ const Home = () => {
             </Link>
           </div>
           {/* <Logo /> */}
-        </Background>
       </div>
+        </Background>
 
       <Loader type="pacman" />
     </>

@@ -38,7 +38,7 @@ const Home = () => {
   return (
     <>
       <div className="container home-page">
-        <Background>
+        {/* <Background> */}
           <div className="text-zone">
             <h1>
               <span className={letterClass}>H</span>
@@ -70,7 +70,7 @@ const Home = () => {
             </Link>
           </div>
           {/* <Logo /> */}
-        </Background>
+        {/* </Background> */}
       </div>
 
       <Loader type="pacman" />

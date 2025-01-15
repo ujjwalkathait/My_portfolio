@@ -4,6 +4,7 @@ import './index.scss'
 
 const Layout = () => {
   return (
+    // <Background>
       <div className="App">
           <Sidebar />
           <div className="page">
@@ -16,7 +17,8 @@ const Layout = () => {
               <span className="bottom-tag-html">&lt;/html&gt;</span>
             </span>
           </div>
-      </div>  
+      </div>
+    // </Background>
   )
 }
 
