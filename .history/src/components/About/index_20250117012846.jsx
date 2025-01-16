@@ -55,7 +55,9 @@ const About = () => {
               <div>
                 <h3>Problem Solver</h3>
                 <p>
-                  I love to solve problem and skilled in analyzing challenges and delivering efficient, innovative solutions.
+                  If I need to define myself in one sentence that would be a family
+                  person, father of a beautiful daughter, a sports fanatic,
+                  photography enthusiast, and tech-obsessed!!!
                 </p>
               </div>
             </li>

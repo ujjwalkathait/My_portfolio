@@ -38,7 +38,7 @@ const About = () => {
               <div>
                 <h3>Frontend Developer</h3>
                 <p>
-                  I'm a very ambitious front-end developer with experience in building responsive and optimized sites.
+                  I'm a very ambitious front-end developer with experience in building.
                 </p>
               </div>
             </li>
@@ -47,7 +47,7 @@ const About = () => {
                 <h3>ML Engineer</h3>
                 <p align="LEFT">
                   I'm quiet confident, naturally curious, and perpetually working on
-                  improving my machine learning knowledge.
+                  improving my chops one design problem at a time.
                 </p>
               </div>
             </li>
@@ -55,7 +55,9 @@ const About = () => {
               <div>
                 <h3>Problem Solver</h3>
                 <p>
-                  I love to solve problem and skilled in analyzing challenges and delivering efficient, innovative solutions.
+                  If I need to define myself in one sentence that would be a family
+                  person, father of a beautiful daughter, a sports fanatic,
+                  photography enthusiast, and tech-obsessed!!!
                 </p>
               </div>
             </li>

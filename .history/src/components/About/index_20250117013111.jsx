@@ -55,7 +55,7 @@ const About = () => {
               <div>
                 <h3>Problem Solver</h3>
                 <p>
-                  I love to solve problem and skilled in analyzing challenges and delivering efficient, innovative solutions.
+                  I love to solve problem
                 </p>
               </div>
             </li>

@@ -36,26 +36,30 @@ const About = () => {
           <div className='about-items'>
             <li className='about-item'>
               <div>
-                <h3>Frontend Developer</h3>
+                <h3>Frontend </h3>
                 <p>
-                  I'm a very ambitious front-end developer with experience in building responsive and optimized sites.
+                  I'm a very ambitious front-end developer looking for a role in an
+                  established IT company with the opportunity to work with the latest
+                  technologies on challenging and diverse projects.
                 </p>
               </div>
             </li>
             <li className='about-item'>
               <div>
-                <h3>ML Engineer</h3>
+                <h3>Heading 2</h3>
                 <p align="LEFT">
                   I'm quiet confident, naturally curious, and perpetually working on
-                  improving my machine learning knowledge.
+                  improving my chops one design problem at a time.
                 </p>
               </div>
             </li>
             <li className='about-item'>
               <div>
-                <h3>Problem Solver</h3>
+                <h3>Heading 3</h3>
                 <p>
-                  I love to solve problem and skilled in analyzing challenges and delivering efficient, innovative solutions.
+                  If I need to define myself in one sentence that would be a family
+                  person, father of a beautiful daughter, a sports fanatic,
+                  photography enthusiast, and tech-obsessed!!!
                 </p>
               </div>
             </li>

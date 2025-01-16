@@ -26,46 +26,17 @@
       background: #ffd700;
       color: #333;
     }
-}
-.about-items{
-    color: rgb(255, 255, 255);
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-
-    .about-item{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        border-radius: 20px;
-        list-style: none;
-        padding-left: 15px;
-        background-image: linear-gradient(90deg, rgba(165, 215, 232, 0.42) 0%, rgba(255, 255, 255, 0)100%);
-        background-size: 0 100%;
-        background-repeat: no-repeat;
-        transition: 0.4s;
-
-        h3{
-            font-size: 15px;
-            font-weight: 900;
-            margin: 0;
-            margin-top: 10px;
-        }
-    }
-    .about-item:hover{
-        background-size: 100% 100%;
-    }
-}
-
+  }
 
 .cubespinner {
-    animation-name: spincube;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-duration: 12s;
-    transform-style: preserve-3d;
-    transform-origin: 100px 100px 0;
-    margin-left: calc(50% - 100px);
+animation-name: spincube;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 12s;
+transform-style: preserve-3d;
+transform-origin: 100px 100px 0;
+margin-left: calc(50% - 100px);
+    
     div {
         position: absolute;
         width: 200px;

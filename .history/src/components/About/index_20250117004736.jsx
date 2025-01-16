@@ -33,33 +33,23 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <div className='about-items'>
-            <li className='about-item'>
-              <div>
-                <h3>Frontend Developer</h3>
-                <p>
-                  I'm a very ambitious front-end developer with experience in building responsive and optimized sites.
-                </p>
-              </div>
-            </li>
-            <li className='about-item'>
-              <div>
-                <h3>ML Engineer</h3>
-                <p align="LEFT">
-                  I'm quiet confident, naturally curious, and perpetually working on
-                  improving my machine learning knowledge.
-                </p>
-              </div>
-            </li>
-            <li className='about-item'>
-              <div>
-                <h3>Problem Solver</h3>
-                <p>
-                  I love to solve problem and skilled in analyzing challenges and delivering efficient, innovative solutions.
-                </p>
-              </div>
-            </li>
-          </div>
+          <ul>
+            
+          </ul>
+          <p>
+            I'm a very ambitious front-end developer looking for a role in an
+            established IT company with the opportunity to work with the latest
+            technologies on challenging and diverse projects.
+          </p>
+          <p align="LEFT">
+            I'm quiet confident, naturally curious, and perpetually working on
+            improving my chops one design problem at a time.
+          </p>
+          <p>
+            If I need to define myself in one sentence that would be a family
+            person, father of a beautiful daughter, a sports fanatic,
+            photography enthusiast, and tech-obsessed!!!
+          </p>
           <Link to="https://drive.google.com/file/d/1ZtraeJJcR-7mPkhS7-8UXoJNXp79mLtN/view?usp=drive_link" target='_blank' className="flat-button">
               RESUME
           </Link>
