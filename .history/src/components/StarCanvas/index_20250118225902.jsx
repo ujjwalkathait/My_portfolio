@@ -24,7 +24,7 @@ const StarBackground = (props) =>{
 
 const StarsCanvas = () => (
     <div className="fullscreen-fixed">
-        <Canvas camera={{position: [0,0,1]}} style={{position: 'absolute'}}>
+        <Canvas camera={{position: [0,0,1]} position='absolute'>}>
             <Suspense fallback={null}>
                 <StarBackground />
             </Suspense>

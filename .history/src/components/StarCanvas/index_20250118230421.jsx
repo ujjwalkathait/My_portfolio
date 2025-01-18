@@ -23,12 +23,14 @@ const StarBackground = (props) =>{
 };
 
 const StarsCanvas = () => (
+    <div style={{ position: "relative", width: "100vw", height: "100vh" }}></div>
     <div className="fullscreen-fixed">
-        <Canvas camera={{position: [0,0,1]}} style={{position: 'absolute'}}>
+        <Canvas camera={{position: [0,0,1]}}>
             <Suspense fallback={null}>
                 <StarBackground />
             </Suspense>
         </Canvas>
+    </div>
     </div>
 )
 

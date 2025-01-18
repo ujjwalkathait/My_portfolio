@@ -30,7 +30,7 @@ const Skills = () => {
                         idx={14}
                     />
                 </h1>
-                {/* <SkillsAnimation />     */}
+                <SkillsAnimation />     
             </div>
             <Loader type="pacman" />
         </>

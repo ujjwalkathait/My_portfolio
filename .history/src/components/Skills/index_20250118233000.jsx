@@ -30,7 +30,10 @@ const Skills = () => {
                         idx={14}
                     />
                 </h1>
-                {/* <SkillsAnimation />     */}
+                <SkillsAnimation />
+                {/* <div className="skills-container">
+                    
+                </div> */}
             </div>
             <Loader type="pacman" />
         </>

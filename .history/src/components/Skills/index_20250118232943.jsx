@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
-import SkillsAnimation from "./SkillsAnimation";
 import "./index.scss";
 
 const Skills = () => { 
@@ -30,7 +29,9 @@ const Skills = () => {
                         idx={14}
                     />
                 </h1>
-                {/* <SkillsAnimation />     */}
+                {/* <div className="skills-container">
+                    
+                </div> */}
             </div>
             <Loader type="pacman" />
         </>
