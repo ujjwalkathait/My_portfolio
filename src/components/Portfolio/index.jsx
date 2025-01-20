@@ -2,6 +2,11 @@ import React, { useEffect, useState } from "react";
 import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
+import project1 from '../../assets/images/project1.jpg';
+import project2 from '../../assets/images/project2.jpg';
+import project3 from '../../assets/images/banner-bg.png';
+import project4 from '../../assets/images/project1.jpg';
+import project5 from '../../assets/images/project2.jpg';
 
 const Portfolio = () => { 
     const [letterClass, setLetterClass] = useState('text-animate');
@@ -15,11 +20,11 @@ const Portfolio = () => {
         return () => clearTimeout(timeout);
     }, []);
     const projects = [
-        { title: "Project 1", description: "Lorem ipsum dolor sit.", icon: "logo-react", bg: "../../assets/images/banner-bg.png" },
-        { title: "Project 2", description: "Lorem ipsum dolor sit.", icon: "logo-nodejs", bg: "../../assets/images/banner-bg.png" },
-        { title: "Project 3", description: "Lorem ipsum dolor sit.", icon: "logo-nodejs", bg: "../../assets/images/banner-bg.png" },
-        { title: "Project 4", description: "Lorem ipsum dolor sit.", icon: "logo-python", bg: "../../assets/images/banner-bg.png" },
-        { title: "Project 5", description: "Lorem ipsum dolor sit.", icon: "person-outline", bg: "../../assets/images/banner-bg.png" },
+        { title: "Project 1", description: "Lorem ipsum dolor sit.", icon: "logo-react", bg: project1 },
+        { title: "Project 2", description: "Lorem ipsum dolor sit.", icon: "logo-nodejs", bg: project2 },
+        { title: "Project 3", description: "Lorem ipsum dolor sit.", icon: "logo-nodejs", bg: project3 },
+        { title: "Project 4", description: "Lorem ipsum dolor sit.", icon: "logo-python", bg: project4},
+        { title: "Project 5", description: "Lorem ipsum dolor sit.", icon: "person-outline", bg: project5 },
     ];
     const handleCardClick = (index) => {
         setActiveCard(index);
