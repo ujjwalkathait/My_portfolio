@@ -29,7 +29,7 @@
 } 
 .cards{
     display: flex;
-    max-width: 1000px;
+    max-width: 800px;
     width: calc(100% - 100px);
     height: 400px;
 }
@@ -67,11 +67,16 @@
     margin: 5px;
     background-size: auto 150%;
     background-position: center;
-    // background-repeat: no-repeat;
+    background-repeat: no-repeat;
     cursor: pointer;
     transition: 0.5s cubic-bezier(.05, .61, .41, .95);
     border-radius: 30px;
 }
+.cards .card:hover{
+    color: rgb(88 199 250 / 100%);
+    transition:  color 1s;
+}
+
 .cards .card .label{
     display: flex;
     position: absolute;
