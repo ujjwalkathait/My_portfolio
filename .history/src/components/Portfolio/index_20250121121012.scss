@@ -82,39 +82,41 @@
     transition: 0.5s cubic-bezier(.05, .61, .41, .95);
     border-radius: 30px;
 }
-.card.active::before{
-    content: "";
-    width: 101%;
-    height: 102%;
-    border-radius: 30px;
-    background-image: linear-gradient(
-        var(--rotate),
-        #5ddcff, #3c67e3 43%, #4c00c2
-    );
-    position: absolute;
-    z-index: -1;
-    top: -1%;
-    left: -0.5%;
-    animation: spin 2.5s linear infinite;
-}
-.card.active::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    height: 100%;
-    width: 100%;
-    margin: 0 auto;
-    transform: scale(0.8);
-    background-image: linear-gradient(
-        var(--rotate),
-        #5ddcff, #3c67e3 43%, #4c00c2
-    );
-    opacity: 1;
-    transition: opacity .5s;
-    animation: spin 2.5s linear infinite;
-}
+// .card.active::before{
+//     content: "";
+//     width: 102%;
+//     height: 102%;
+//     border-radius: 30px;
+//     background-image: linear-gradient(
+//         var(--rotate),
+//         #5ddcff, #3c67e3 43%, #4c00c2
+//     );
+//     position: absolute;
+//     z-index: -1;
+//     top: -1%;
+//     left: -1%;
+//     animation: spin 2.5s linear infinite;
+// }
+// .card.active::after{
+//     content: "";
+//     position: absolute;
+//     top: calc(var(--card-height) / 6);
+//     left: 0;
+//     right: 0;
+//     z-index: -1;
+//     height: 100%;
+//     width: 100%;
+//     margin: 0 auto;
+//     transform: scale(0.8);
+//     filter: blur(calc(var(--card-height) / 6));
+//     background-image: linear-gradient(
+//         var(--rotate),
+//         #5ddcff, #3c67e3 43%, #4c00c2
+//     );
+//     opacity: 1;
+//     transition: opacity .5s;
+//     animation: spin 2.5s linear infinite;
+// }
 @keyframes spin{
     0%{
         --rotate: 0deg;
@@ -133,7 +135,11 @@
 .cards .card.active .label{
     bottom: 20px;
     left: 20px;
-    overflow: hidden;
+    border: 5px so linear-gradient(
+        var(--rotate),
+        #5ddcff, #3c67e3 43%, #4c00c2
+    );
+    
 }
 .cards .card.active {
     flex-grow: 10000;
@@ -150,5 +156,5 @@
     left: 0;
     right: 0;
     height: 100px;
-    // background: linear-gradient(0, #0004, transparent);  
+    background: linear-gradient(0, #0004, transparent);
 }

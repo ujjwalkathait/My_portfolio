@@ -41,7 +41,7 @@
     max-width: 1000px;
     width: calc(100% - 100px);
     height: 400px;
-    overflow: hidden;
+    ove
 }
 .cards .card .info .title{
     font-weight: bold;
@@ -84,7 +84,7 @@
 }
 .card.active::before{
     content: "";
-    width: 101%;
+    width: 102%;
     height: 102%;
     border-radius: 30px;
     background-image: linear-gradient(
@@ -94,12 +94,13 @@
     position: absolute;
     z-index: -1;
     top: -1%;
-    left: -0.5%;
+    left: -1%;
     animation: spin 2.5s linear infinite;
 }
 .card.active::after{
     content: "";
     position: absolute;
+    top: calc(var(--card-height) / 6);
     left: 0;
     right: 0;
     z-index: -1;
@@ -107,6 +108,7 @@
     width: 100%;
     margin: 0 auto;
     transform: scale(0.8);
+    filter: blur(calc(var(--card-height) / 6));
     background-image: linear-gradient(
         var(--rotate),
         #5ddcff, #3c67e3 43%, #4c00c2
@@ -133,7 +135,6 @@
 .cards .card.active .label{
     bottom: 20px;
     left: 20px;
-    overflow: hidden;
 }
 .cards .card.active {
     flex-grow: 10000;
@@ -150,5 +151,5 @@
     left: 0;
     right: 0;
     height: 100px;
-    // background: linear-gradient(0, #0004, transparent);  
+    background: linear-gradient(0, #0004, transparent);
 }
