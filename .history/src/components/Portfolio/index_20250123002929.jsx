@@ -4,7 +4,7 @@ import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
 import project1 from '../../assets/images/project1.jpg';
 import project2 from '../../assets/images/project2.jpg';
-import project3 from '../../assets/images/banner-bg.jpg';
+import project3 from '../../assets/images/banner-bg.J';
 import project4 from '../../assets/images/project1.jpg';
 import project5 from '../../assets/images/project2.jpg';
 
