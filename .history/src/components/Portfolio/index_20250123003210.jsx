@@ -2,11 +2,11 @@ import React, { useEffect, useState } from "react";
 import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
-import project1 from '../../assets/images/project1.JPG';
-import project2 from '../../assets/images/project2.JPG';
-import project3 from '../../assets/images/banner-bg.JPG';
-import project4 from '../../assets/images/project1.JPG';
-import project5 from '../../assets/images/project2.JPG';
+import project1 from '../../assets/images/project1.';
+import project2 from '../../assets/images/project2.';
+import project3 from '../../assets/images/banner-bg.   ';
+import project4 from '../../assets/images/project1.';
+import project5 from '../../assets/images/project2.';
 
 const Portfolio = () => { 
     const [letterClass, setLetterClass] = useState('text-animate');
