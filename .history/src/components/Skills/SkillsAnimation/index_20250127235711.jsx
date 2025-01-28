@@ -31,7 +31,7 @@ const slugs = [
 const SkillsAnimation = () => {
     return (
         <>
-            <div className='skill-box  mx-auto px-8 md:px-10 lg:px-20 xl:px-32 w-1/2 right-0 '>
+            <div className='skill-bo  mx-auto px-8 md:px-10 lg:px-20 xl:px-32 w-1/2 right-0 '>
                 <div className="relative flex size-full items-center justify-center overflow-hidden px-20 pb-20 pt-2">
                     <IconCloud iconSlugs={slugs} />
                 </div>
