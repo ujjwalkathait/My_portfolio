@@ -40,9 +40,9 @@ export const renderCustomIcon = (icon, theme) => {
 
   return renderSimpleIcon({
     icon,
-    bgHex: bgHex,
-    fallbackHex: fallbackHex,
-    minContrastRatio: minContrastRatio,
+    bgHex,
+    fallbackHex,
+    minContrastRatio,
     size: 40,
     aProps: {
       href: undefined,
@@ -63,9 +63,10 @@ export default function IconCloud({ iconSlugs }) {
 
   const renderedIcons = useMemo(() => {
     if (!data) return null;
-    return Object.values(data.simpleIcons).map((icon) =>
-      renderCustomIcon(icon, theme)
-    );
+    return Object.values(data.simpleIcons).map((icon) =>{
+      icon.hex = "ffffff";
+      renderCustomIcon(icon, "light")
+    });
   }, [data, theme]);
 
   return (

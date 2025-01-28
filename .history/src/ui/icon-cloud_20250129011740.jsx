@@ -14,6 +14,7 @@ export const cloudProps = {
       alignItems: "center",
       width: "100%",
       // paddingTop: 40,
+      top: -5%,
       marginRight: 40,
     },
   },
@@ -40,10 +41,10 @@ export const renderCustomIcon = (icon, theme) => {
 
   return renderSimpleIcon({
     icon,
-    bgHex: bgHex,
-    fallbackHex: fallbackHex,
-    minContrastRatio: minContrastRatio,
-    size: 40,
+    bgHex,
+    fallbackHex,
+    minContrastRatio,
+    size: 42,
     aProps: {
       href: undefined,
       target: undefined,
@@ -64,7 +65,7 @@ export default function IconCloud({ iconSlugs }) {
   const renderedIcons = useMemo(() => {
     if (!data) return null;
     return Object.values(data.simpleIcons).map((icon) =>
-      renderCustomIcon(icon, theme)
+      renderCustomIcon(icon, "light")
     );
   }, [data, theme]);
 
