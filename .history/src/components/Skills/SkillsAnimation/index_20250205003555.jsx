@@ -5,12 +5,10 @@ import './index.scss';
 const slugs = [
     "cplusplus",
     "javascript",
-    "python",
-    "pycharm",
+    ""
     "dart",
     "openjdk",
     "react",
-    "jupyter",
     "flutter",
     "android",
     "html5",

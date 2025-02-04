@@ -5,6 +5,7 @@ import SkillsAnimation from "./SkillsAnimation";
 import "./index.scss";
 
 const Skills = () => { 
+    
     const [letterClass, setLetterClass] = useState('text-animate');
 
     useEffect(() => {

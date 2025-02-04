@@ -5,12 +5,9 @@ import './index.scss';
 const slugs = [
     "cplusplus",
     "javascript",
-    "python",
-    "pycharm",
     "dart",
-    "openjdk",
+    "java",
     "react",
-    "jupyter",
     "flutter",
     "android",
     "html5",
@@ -20,15 +17,16 @@ const slugs = [
     "nextdotjs",
     "tensorflow",
     "mysql",
-    "sqlite",
+    "oracle",
     "firebase",
     "vercel",
+    "docker",
     "git",
     "github",
     "gitlab",
-    "vscode",
+    "visualstudiocode",
     "androidstudio", 
-    "figma",
+    "fig    ma",
   ];
 const SkillsAnimation = () => {
     return (

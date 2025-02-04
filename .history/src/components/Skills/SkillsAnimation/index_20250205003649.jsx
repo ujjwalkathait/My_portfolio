@@ -10,7 +10,7 @@ const slugs = [
     "dart",
     "openjdk",
     "react",
-    "jupyter",
+    ""
     "flutter",
     "android",
     "html5",

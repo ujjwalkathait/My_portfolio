@@ -5,6 +5,13 @@ import SkillsAnimation from "./SkillsAnimation";
 import "./index.scss";
 
 const Skills = () => { 
+    const skillsData = [
+        { skill: "HTML", percentage: 98, color: "#FF4C4C" },
+        { skill: "CSS", percentage: 98, color: "#4C94FF" },
+        { skill: "JavaScript", percentage: 98, color: "#FFD700" },
+        { skill: "Node.js", percentage: 98, color: "#4CFF4C" },
+        { skill: "React", percentage: 98, color: "#4CBFFF" },
+    ];
     const [letterClass, setLetterClass] = useState('text-animate');
 
     useEffect(() => {
@@ -23,9 +30,9 @@ const Skills = () => {
                         idx={14}
                     />
                 </h1>
-                <SkillsAnimation />    
             </div>
             <Loader type="pacman" />
+            <SkillsAnimation />    
         </>
     );
 }
