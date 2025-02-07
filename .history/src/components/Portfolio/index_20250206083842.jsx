@@ -47,9 +47,31 @@ const Portfolio = () => {
                                 key={index}
                                 className={`card ${activeCard === index ? "active" : ""}`}
                                 onClick={() => handleCardClick(index)}
-                                style={{ "--bg": `black` }}
+                                style={{ "--bg": `url(${project.bg})` }}
                             >
-                                <div className="bg-image" style={{ backgroundImage: `url(${project.bg})` }}></div>
+                                <div className="shadow"></div>
+                                <div className="label">
+                                    <div className="icon" style={{ "--color": "white" }}>
+                                        <ion-icon name={project.icon}></ion-icon>
+                                    </div>
+                                    <div className="info">
+                                        <div className="title">{project.title}</div>
+                                        <div>{project.description}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+                <div className="menu">
+                    <div className="cards">
+                        {projects.map((project, index) => (
+                            <div
+                                key={index}
+                                className={`card ${activeCard === index ? "active" : ""}`}
+                                onClick={() => handleCardClick(index)}
+                                style={{ "--bg": `url(${project.bg})` }}
+                            >
                                 <div className="shadow"></div>
                                 <div className="label">
                                     <div className="icon" style={{ "--color": "white" }}>

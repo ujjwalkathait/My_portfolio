@@ -49,7 +49,7 @@ const Portfolio = () => {
                                 onClick={() => handleCardClick(index)}
                                 style={{ "--bg": `black` }}
                             >
-                                <div className="bg-image" style={{ backgroundImage: `url(${project.bg})` }}></div>
+                                img
                                 <div className="shadow"></div>
                                 <div className="label">
                                     <div className="icon" style={{ "--color": "white" }}>

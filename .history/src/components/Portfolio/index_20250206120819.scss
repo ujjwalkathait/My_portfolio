@@ -149,7 +149,8 @@
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100px; 
+    height: 100px;
+    // background: linear-gradient(0, #0004, transparent);  
 }
 
 .bg-image{
@@ -159,6 +160,5 @@
     background-size: cover;
     background-position: center;
     overflow: hidden;
-    border-top-left-radius: 30px;
-    // border-radius: 30px;
+    border-radius: 30p;
 }

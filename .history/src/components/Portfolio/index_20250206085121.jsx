@@ -47,9 +47,8 @@ const Portfolio = () => {
                                 key={index}
                                 className={`card ${activeCard === index ? "active" : ""}`}
                                 onClick={() => handleCardClick(index)}
-                                style={{ "--bg": `black` }}
                             >
-                                <div className="bg-image" style={{ backgroundImage: `url(${project.bg})` }}></div>
+                                <div style={{ "--bg": `url(${project})` }}></div>
                                 <div className="shadow"></div>
                                 <div className="label">
                                     <div className="icon" style={{ "--color": "white" }}>

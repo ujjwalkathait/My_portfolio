@@ -43,13 +43,13 @@ const Portfolio = () => {
                 <div className="menu">
                     <div className="cards">
                         {projects.map((project, index) => (
+                            
                             <div
                                 key={index}
                                 className={`card ${activeCard === index ? "active" : ""}`}
                                 onClick={() => handleCardClick(index)}
-                                style={{ "--bg": `black` }}
+                                style={{ "--bg": `url(${project.bg})` }}
                             >
-                                <div className="bg-image" style={{ backgroundImage: `url(${project.bg})` }}></div>
                                 <div className="shadow"></div>
                                 <div className="label">
                                     <div className="icon" style={{ "--color": "white" }}>

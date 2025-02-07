@@ -77,15 +77,15 @@
     margin: 5px;
     background-size: auto 150%;
     background-position: center;
-    background-repeat: no-repeat;
+    // background-repeat: no-repeat;
     cursor: pointer;
     transition: 0.5s cubic-bezier(.05, .61, .41, .95);
     border-radius: 30px;
 }
 .card.active::before{
     content: "";
-    width: 100.4%;
-    height: 101%;
+    width: 710px;
+    height: 390px;
     border-radius: 30px;
     background-image: linear-gradient(
         var(--rotate),
@@ -149,16 +149,6 @@
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100px; 
-}
-
-.bg-image{
-    position: absolute;
-    width: 400px;
-    height: 330px;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    border-top-left-radius: 30px;
-    // border-radius: 30px;
+    height: 100px;
+    // background: linear-gradient(0, #0004, transparent);  
 }
