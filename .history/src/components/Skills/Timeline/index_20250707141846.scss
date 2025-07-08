@@ -1,0 +1,68 @@
+.timeline {
+  position: relative;
+  width: 55%;
+  margin: 10px 100px;
+}
+.container1{
+    padding: 10px 50px;
+    // margin: 10px 10px;
+    position: relative;
+    width: 80%;
+}
+
+.text-box {
+  padding: 20px 30px;
+  background: #ffffff;
+  border-radius: 6px;
+  position: relative;
+  font-size: 15px;
+}
+
+.container1 img {
+    position: absolute;
+    width: 30px;
+    border-radius: 50%;
+    left: -5px;
+    top: 50px;
+    z-index: 10;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: #fff;
+    top: 0;
+    left: 1.5%;
+    margin-left: -3px;
+    z-index: -1;
+}
+
+.heading {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+.desciption {
+    font-size: 16px;
+    color: #666;
+}
+.year {
+    font-size: 18px;
+    color: #999;
+    margin: 5px 0;
+}
+
+.container-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #fff;
+    left: -16px;
+    top: 28px;
+    z-index: 1;
+}

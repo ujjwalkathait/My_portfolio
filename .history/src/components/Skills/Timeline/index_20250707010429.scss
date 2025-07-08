@@ -1,0 +1,38 @@
+.timeline-container {
+  padding: 10px 0;
+  background: linear-gradient(to right, #f0f0f0, #e0e0e0);
+  width: 55%;
+  margin: auto 100px;
+}
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 10px auto;
+}
+
+// .container{
+//     padding: 10px 50px;
+//     position: relative;
+//     width: 80%;
+//     background: rgba(0, 0 , 0, 0.3);
+// }
+.container {
+  padding: 10px 50px; /* Reduce horizontal padding */
+  margin: 10px 0;      /* Add vertical spacing instead of relying on padding */
+  position: relative;
+  width: 80%;
+  background: rgba(0, 0 , 0, 0.3);
+}
+
+.text-box {
+  padding: 20px 30px;
+  background: #ff1a1a;
+  border-radius: 6px;
+  position: relative;
+  font-size: 15px;
+}
+.description {
+  margin: 0;
+  color: #333;
+}

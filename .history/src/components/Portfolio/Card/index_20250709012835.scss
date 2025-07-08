@@ -1,0 +1,186 @@
+.app-card {
+  // background-color: #fff;
+  // border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  // padding: 24px;
+  // max-width: 360px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+
+  padding: 10px;
+  border-radius: 10px;
+  background: #fff;
+
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.app-img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.placeholder-icon {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+
+.app-title {
+  padding-left: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  color: #2d3748;
+}
+
+// .stats-container {
+//   background-color: #f7f9fc;
+//   border-radius: 12px;
+//   padding: 16px;
+//   margin-bottom: 20px;
+// }
+
+// .main-stat {
+//   text-align: center;
+//   margin-bottom: 16px;
+//   padding-bottom: 16px;
+//   border-bottom: 1px solid #e2e8f0;
+// }
+
+// .stat-value {
+//   font-size: 24px;
+//   font-weight: 800;
+//   display: block;
+//   color: #1a202c;
+// }
+
+// .stat-label {
+//   font-size: 14px;
+//   color: #718096;
+// }
+
+// .percentages-grid {
+//   display: grid;
+//   grid-template-columns: repeat(3, 1fr);
+//   gap: 12px;
+// }
+
+// .percentage-item {
+//   background-color: white;
+//   border-radius: 8px;
+//   padding: 8px;
+//   text-align: center;
+//   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+// }
+
+// .percentage-value {
+//   font-size: 16px;
+//   font-weight: 700;
+//   display: block;
+//   color: #2d3748;
+// }
+
+// .percentage-label {
+//   font-size: 12px;
+//   color: #718096;
+//   display: block;
+// }
+
+.arrow-button {
+  position: absolute;
+  bottom: 7px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #a9aaac;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.arrow-button:hover {
+  transform: rotate(-45deg);
+}
+
+.arrow-button svg {
+  width: 20px;
+  height: 20px;
+  color: #4a5568;
+}
+
+.github-button {
+  position: absolute;
+  bottom: 7px;
+  right: 75px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #a9aaac;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.github-button:hover {
+  transform: rotate(-45deg);
+}
+
+.github-button svg {
+  width: 20px;
+  height: 20px;
+  color: #4a5568;
+}
+
+.popup-window {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  z-index: 100;
+  padding: 16px;
+  width: 300px;
+}
+
+.popup-content {
+  display: flex;
+  gap: 16px;
+}
+
+.popup-image img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.popup-details h4 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}

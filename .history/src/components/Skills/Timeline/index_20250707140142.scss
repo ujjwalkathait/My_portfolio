@@ -1,0 +1,41 @@
+.timeline {
+  position: relative;
+  width: 55%;
+  margin: 10px 100px;
+  
+}
+.container1{
+    padding: 10px 50px;
+    // margin: 10px 10px;
+    position: relative;
+    width: 80%;
+}
+
+.text-box {
+  padding: 20px 30px;
+  background: #ffffff;
+  border-radius: 6px;
+  position: relative;
+  font-size: 15px;
+}
+
+.container1 img {
+    position: absolute;
+    width: 30px;
+    border-radius: 50%;
+    left: -5px;
+    top: 50px;
+    z-index: 10;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: #fff;
+    top: 0;
+    left: 1.5%;
+    margin-left: -3px;
+    z-index: -1;
+}

@@ -1,0 +1,42 @@
+.timeline-container {
+  padding: 2rem;
+  width: 50%;
+}
+
+.timeline-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.timeline {
+  position: relative;
+  margin-left: 2rem;
+  border-left: 3px solid #007bff;
+}
+
+.timeline-box {
+  position: relative;
+  margin: 2rem 0;
+  padding-left: 1.5rem;
+}
+
+.timeline-box::before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  background: #007bff;
+  border-radius: 50%;
+}
+
+.content h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.content p {
+  margin: 0.5rem 0 0;
+}
