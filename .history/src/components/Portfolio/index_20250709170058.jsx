@@ -24,11 +24,11 @@ const Portfolio = () => {
         return () => clearTimeout(timeout);
     }, []);
     const projects = [
-        { title: "Project 1", description: "Lorem ipsum dolor sit.", icon: "logo-react", bg: project1 , github: "https://github.com/ujjwalkathait/Process_Scheduler"},
-        { title: "Project 2", description: "Lorem ipsum dolor sit.", icon: "logo-nodejs", bg: project2 , github: "https://github.com/ujjwalkathait/Process_Scheduler"},
-        { title: "Project 3", description: "Lorem ipsum dolor sit.", icon: "logo-nodejs", bg: project3 , github: "https://github.com/ujjwalkathait/Process_Scheduler"},
-        { title: "Project 4", description: "Lorem ipsum dolor sit.", icon: "logo-python", bg: project4 , github: "https://github.com/ujjwalkathait/Process_Scheduler"},
-        { title: "Project 5", description: "Lorem ipsum dolor sit.", icon: "person-outline", bg: project5 , github: "https://github.com/ujjwalkathait/Process_Scheduler"},
+        { title: "Project 1", description: "Lorem ipsum dolor sit.", icon: "logo-react", bg: project1 , github:},
+        { title: "Project 2", description: "Lorem ipsum dolor sit.", icon: "logo-nodejs", bg: project2 },
+        { title: "Project 3", description: "Lorem ipsum dolor sit.", icon: "logo-nodejs", bg: project3 },
+        { title: "Project 4", description: "Lorem ipsum dolor sit.", icon: "logo-python", bg: project4},
+        { title: "Project 5", description: "Lorem ipsum dolor sit.", icon: "person-outline", bg: project5 },
     ];
     const handleCardClick = (index) => {
         setActiveCard(index);
@@ -64,7 +64,6 @@ const Portfolio = () => {
                                 imageUrl={project.bg}
                                 title={project.title}
                                 description={project.description}
-                                github={project.github}
                             />
                         ))}
 

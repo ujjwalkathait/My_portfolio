@@ -64,7 +64,6 @@ const Portfolio = () => {
                                 imageUrl={project.bg}
                                 title={project.title}
                                 description={project.description}
-                                github={project.github}
                             />
                         ))}
 

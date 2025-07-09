@@ -8,7 +8,6 @@
   border-radius: 10px;
   background: #fff;
   font-family: "IBM Plex Mono", monospace;
-  margin-top: 50px;
 }
 
 .card-header {
@@ -23,8 +22,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 10px;
-  overflow: hidden;
 }
 
 .app-img img {
@@ -32,11 +29,6 @@
   height: 100%;
   border-radius: 10px;
   object-fit: cover;
-  transition: transform 0.3s ease;
-}
-
-.app-img:hover img {
-  transform: scale(1.05); // slightly zoom in
 }
 
 .placeholder-icon {
@@ -53,14 +45,6 @@
   font-style: italic;
   margin: 0;
   color: #2d3748;
-}
-
-.app-description {
-  padding-left: 10px;
-  font-size: 14px;
-  color: #4a5568;
-  font-weight: 500;
-  margin: 0;
 }
 
 .arrow-button, .github-button {
@@ -148,16 +132,8 @@
   position: absolute;
   top: 8px;
   right: 12px;
-  font-size: 24px;
-  font-weight: bold;
-  color: #333;
+  font-size: 20px;
   background: none;
   border: none;
   cursor: pointer;
-  transition: transform 0.2s;
-
-  &:hover {
-    transform: scale(1.2);
-    color: #ff0000;
-  }
 }

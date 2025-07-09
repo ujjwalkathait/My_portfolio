@@ -6,13 +6,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
   faGithub,
+  <FontAwesomeIcon icon={faTerminal},
   faFacebook,
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faHome,
   faUser,
   faEnvelope,
-  faTerminal,
   faSuitcase,
   faEye,
   faBars,
@@ -105,7 +105,7 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://leetcode.com/u/ujjwalkathait/"
+            href="https://www.youtube.com/channel/UCBu5ulO4d-d47lAVybpRTkw"
             rel="noreferrer"
             target="_blank"
           >

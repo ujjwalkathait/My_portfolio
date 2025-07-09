@@ -8,7 +8,6 @@
   border-radius: 10px;
   background: #fff;
   font-family: "IBM Plex Mono", monospace;
-  margin-top: 50px;
 }
 
 .card-header {
@@ -144,8 +143,7 @@
   border-radius: 6px;
 }
 
-.close-button {
-  position: absolute;
+position: absolute;
   top: 8px;
   right: 12px;
   font-size: 24px;
@@ -160,4 +158,3 @@
     transform: scale(1.2);
     color: #ff0000;
   }
-}

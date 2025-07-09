@@ -8,7 +8,6 @@
   border-radius: 10px;
   background: #fff;
   font-family: "IBM Plex Mono", monospace;
-  margin-top: 50px;
 }
 
 .card-header {
@@ -59,7 +58,6 @@
   padding-left: 10px;
   font-size: 14px;
   color: #4a5568;
-  font-weight: 500;
   margin: 0;
 }
 
@@ -148,16 +146,8 @@
   position: absolute;
   top: 8px;
   right: 12px;
-  font-size: 24px;
-  font-weight: bold;
-  color: #333;
+  font-size: 20px;
   background: none;
   border: none;
   cursor: pointer;
-  transition: transform 0.2s;
-
-  &:hover {
-    transform: scale(1.2);
-    color: #ff0000;
-  }
 }
