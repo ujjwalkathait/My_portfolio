@@ -60,7 +60,7 @@
   font-size: 14px;
   color: #4a5568;
   font-weight: 500;
-  margin: 0;  
+  margin: 0;
 }
 
 .arrow-button, .github-button, .github-modal-button, .preview-modal-button {
@@ -80,7 +80,7 @@
 
 .arrow-button {
   right: 15px;
-  bottom: 15px;
+  bottom: 15;
 }
 
 .github-button {
@@ -135,7 +135,7 @@
 
 .modal-body {
   display: flex;
-  gap: 15px;
+  gap: 16px;
 }
 
 .modal-body img {

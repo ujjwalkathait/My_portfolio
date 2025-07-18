@@ -99,6 +99,7 @@
 
 .modal-overlay {
   font-family: "IBM Plex Mono", monospace;
+  font-size: ;
   position: fixed;
   top: 0;
   left: 0;
@@ -135,7 +136,7 @@
 
 .modal-body {
   display: flex;
-  gap: 15px;
+  gap: 16px;
 }
 
 .modal-body img {
